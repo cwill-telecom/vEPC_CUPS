@@ -1,0 +1,6 @@
+# requirements.txt — vEPC_cups_python is stdlib-only.
+# The reference vEPC_python needed mysql-connector-python + pycryptodome; the CUPS
+# simulator needs no third-party packages. Optional extras are listed as comments.
+#
+# mysql-connector-python   # only if you enable the optional MySQL session store
+# pycryptodome             # only if you enable NAS/IPsec security modules
