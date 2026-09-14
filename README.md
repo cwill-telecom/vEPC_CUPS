@@ -9,9 +9,7 @@ Everything is **stdlib-only** — no third-party packages. Nodes are ordinary OS
 in-process objects) that talk to each other with real protocol messages over loopback UDP;
 each protocol has a small, explicitly documented codec under `protocols/`.
 
-The CUPS half follows the Affirmed vEPC CUPS design and the `cwill-telecom/vEPC_python` layout
-(one module per functional entity, global config at the top of each component, threaded UDP
-servers, protocol codecs under `protocols/`).
+
 
 ---
 
